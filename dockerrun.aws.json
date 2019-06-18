@@ -1,0 +1,11 @@
+{     
+  "AWSEBDockerrunVersion": "1",          
+  "Image":{       
+    "Name": "ncrmns/docker1"    
+  },     
+    "Ports": [       {         
+      "ContainerPort": "8080",          
+      "hostPort": "8080"                
+    }     
+  ]   
+}
